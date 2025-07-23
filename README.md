@@ -22,3 +22,30 @@ A React Native appointment booking app where users can view a list of doctors, s
    ```bash
    git clone <your-repo-link>
    cd CareConnect
+2. Install dependencies:
+   npm install
+   
+## Run the Metro Bundler:
+In the VS Code terminal, start the Metro bundler (React Native's JavaScript bundler):
+npx react-native start
+or
+npx react-native start --port 8082
+
+## Run the app:
+For Android:
+npx react-native run-android
+
+For iOS:
+npx react-native run-ios
+
+## Dependencies:
+@react-navigation/native
+@react-navigation/stack
+react-native-gesture-handler
+react-native-reanimated
+react-native-screens
+react-native-safe-area-context
+@react-native-async-storage/async-storage
+@reduxjs/toolkit
+react-redux
+react-native-toast-message
